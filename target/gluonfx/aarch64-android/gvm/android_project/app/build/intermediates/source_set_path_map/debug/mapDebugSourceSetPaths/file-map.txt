@@ -1,0 +1,10 @@
+com.loancalc.gluonsingleviewproject.app-core-1.0.0-0 /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/res
+com.loancalc.gluonsingleviewproject.app-media-1.0.0-1 /home/bluebirdsan/.gradle/caches/8.9/transforms/359c85d7609f7add00c054feb86c125c/transformed/media-1.0.0/res
+com.loancalc.gluonsingleviewproject.app-coordinatorlayout-1.0.0-2 /home/bluebirdsan/.gradle/caches/8.9/transforms/81e56e6e862bcd18f9344185d9f3b717/transformed/coordinatorlayout-1.0.0/res
+com.loancalc.gluonsingleviewproject.app-pngs-3 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/build/generated/res/pngs/debug
+com.loancalc.gluonsingleviewproject.app-resValues-4 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/build/generated/res/resValues/debug
+com.loancalc.gluonsingleviewproject.app-packageDebugResources-5 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.loancalc.gluonsingleviewproject.app-packageDebugResources-6 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.loancalc.gluonsingleviewproject.app-debug-7 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.loancalc.gluonsingleviewproject.app-debug-8 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/debug/res
+com.loancalc.gluonsingleviewproject.app-main-9 /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res

@@ -1,0 +1,83 @@
+Process
+=======
+compile
+
+Command Line
+============
+/usr/lib/jvm/java-21-graalvm/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED -H:+ExitAfterRelocatableImageWrite --features=com.gluonhq.substrate.feature.GluonFeature -H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json -H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json -H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AMD64 -cp /home/bluebirdsan/.m2/repository/com/gluonhq/substrate/0.0.64/substrate-0.0.64.jar:/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar com.loancalc.LoanCalc
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+Warning: The option '-H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+========================================================================================================================
+GraalVM Native Image: Generating 'com.loancalc.loancalc' (shared library)...
+========================================================================================================================
+For detailed information and explanations on the build output, visit:
+https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+------------------------------------------------------------------------------------------------------------------------
+[GluonFeature] enabled for config com.oracle.svm.hosted.FeatureImpl$IsInConfigurationAccessImpl@57bc27f5
+GluonFeature enabled in setup com.oracle.svm.hosted.FeatureImpl$DuringSetupAccessImpl@551a20d6
+[1/8] Initializing...                                                                                    (5.1s @ 0.11GB)
+ Java version: 21.0.2+13, vendor version: GraalVM CE 21.0.2+13.1
+ Graal compiler: optimization level: 2, target machine: x86-64-v3
+ C compiler: gcc (pc, x86_64, 14.2.1)
+ Garbage collector: Serial GC (max heap size: 80% of RAM)
+ 2 user-specific feature(s):
+ - com.gluonhq.substrate.feature.GluonFeature
+ - com.oracle.svm.thirdparty.gson.GsonFeature
+------------------------------------------------------------------------------------------------------------------------
+ 10 experimental option(s) unlocked:
+ - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+ - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line, command line)
+ - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+ - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+ - '-H:ReflectionConfigurationFiles' (origin(s): command line)
+ - '-H:ResourceConfigurationFiles' (origin(s): command line)
+ - '-H:JNIConfigurationFiles' (origin(s): command line)
+ - '-H:IncludeResourceBundles' (origin(s): command line, command line, command line, command line)
+ - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+ - '-H:TempDirectory' (origin(s): command line)
+------------------------------------------------------------------------------------------------------------------------
+Build resources:
+ - 5.37GB of memory (75.6% of 7.10GB system memory, determined at start)
+ - 8 thread(s) (100.0% of 8 available processor(s), determined at start)
+[2/8] Performing analysis...  [*****]                                                                   (49.0s @ 1.29GB)
+   12,548 reachable types   (88.6% of   14,155 total)
+   20,709 reachable fields  (62.8% of   32,964 total)
+   60,586 reachable methods (62.7% of   96,618 total)
+    3,421 types,   146 fields, and 2,800 methods registered for reflection
+      114 types,   134 fields, and   189 methods registered for JNI access
+        4 native libraries: dl, pthread, rt, z
+[3/8] Building universe...                                                                               (5.2s @ 1.49GB)
+[4/8] Parsing methods...      [**]                                                                       (4.4s @ 1.12GB)
+[5/8] Inlining methods...     [****]                                                                     (2.5s @ 0.90GB)
+[6/8] Compiling methods...    [******]                                                                  (41.1s @ 1.58GB)
+[7/8] Layouting methods...    [***]                                                                      (5.8s @ 1.17GB)
+
+------------------------------------------------------------------------------------------------------------------------
+                       11.9s (10.0% of total time) in 186 GCs | Peak RSS: 3.22GB | CPU load: 6.48
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/com.loancalc.loancalc.h (c_header)
+ /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/com.loancalc.loancalc_dynamic.h (c_header)
+ /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/graal_isolate.h (c_header)
+ /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/graal_isolate_dynamic.h (c_header)
+========================================================================================================================
+Finished generating 'com.loancalc.loancalc' in 1m 58s.
+
+
+Result
+======
+result: 0

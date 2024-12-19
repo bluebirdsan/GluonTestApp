@@ -1,0 +1,58 @@
+Process
+=======
+compile
+
+Command Line
+============
+/usr/lib/jvm/java-21-graalvm/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite -H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/tmp -H:EnableURLProtocols=http,https --initialize-at-build-time=com.gluonhq.charm.glisten.visual.MaterialDesignIcon -H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/reflectionconfig-aarch64-android.json -H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/jniconfig-aarch64-android.json -H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/resourceconfig-aarch64-android.json -H:-SpawnIsolates -Dsvm.targetArch=aarch64 -H:+UseCAPCache -H:CAPCacheDir=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/capcache -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AARCH64 -cp /home/bluebirdsan/.m2/repository/com/gluonhq/substrate/0.0.64/substrate-0.0.64.jar:/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/tmp/classpathJar.jar com.loancalc.LoanCalc
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+Warning: The option '-H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+UseCAPCache' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/resourceconfig-aarch64-android.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/jniconfig-aarch64-android.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:-SpawnIsolates' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:CAPCacheDir=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/capcache' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/reflectionconfig-aarch64-android.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+========================================================================================================================
+GraalVM Native Image: Generating 'com.loancalc.loancalc' (shared library)...
+========================================================================================================================
+For detailed information and explanations on the build output, visit:
+https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+------------------------------------------------------------------------------------------------------------------------
+
+[1/8] Initializing...                                                                                    (0.0s @ 0.08GB)
+Error: Could not load CAPCache file. Ensure that options UseCAPCache and NewCAPCache are used on the same version of your application. Raw error: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/capcache/JNIHeaderDirectivesJDK20OrLater.cap (No such file or directory)
+com.oracle.svm.core.util.UserError$UserException: Could not load CAPCache file. Ensure that options UseCAPCache and NewCAPCache are used on the same version of your application. Raw error: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/capcache/JNIHeaderDirectivesJDK20OrLater.cap (No such file or directory)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.core.util.UserError.abort(UserError.java:73)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.CAnnotationProcessorCache.get(CAnnotationProcessorCache.java:168)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.CAnnotationProcessor.process(CAnnotationProcessor.java:95)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.c.NativeLibraries.finish(NativeLibraries.java:559)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.processNativeLibraryImports(NativeImageGenerator.java:1752)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.setupNativeLibraries(NativeImageGenerator.java:1200)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.setupNativeImage(NativeImageGenerator.java:960)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.doRun(NativeImageGenerator.java:590)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGenerator.run(NativeImageGenerator.java:550)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.buildImage(NativeImageGeneratorRunner.java:539)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.build(NativeImageGeneratorRunner.java:721)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.start(NativeImageGeneratorRunner.java:143)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner.main(NativeImageGeneratorRunner.java:98)
+------------------------------------------------------------------------------------------------------------------------
+                        0.3s (9.2% of total time) in 17 GCs | Peak RSS: 0.46GB | CPU load: 3.84
+========================================================================================================================
+Finished generating 'com.loancalc.loancalc' in 2.7s.
+
+
+Result
+======
+result: 1

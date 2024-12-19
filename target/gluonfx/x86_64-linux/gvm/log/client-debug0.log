@@ -1,0 +1,657 @@
+[Wed Dec 18 20:31:37 EET 2024][INFO] ==================== PACKAGE TASK ====================
+[Wed Dec 18 20:33:34 EET 2024][INFO] ==================== PACKAGE TASK ====================
+[Wed Dec 18 20:35:12 EET 2024][INFO] ==================== COMPILE TASK ====================
+[Wed Dec 18 20:35:14 EET 2024][INFO] We will now compile your code for x86_64-linux-linux. This may take some time.
+[Wed Dec 18 20:35:14 EET 2024][FINE] Extracting native libs to: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/lib
+[Wed Dec 18 20:35:14 EET 2024][FINE] Looking for resource: /native/linux/launcher.c
+[Wed Dec 18 20:35:14 EET 2024][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -I/usr/lib/jvm/java-21-graalvm/include -I/usr/lib/jvm/java-21-graalvm/include/linux -I/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject launcher.c
+[Wed Dec 18 20:35:14 EET 2024][FINE] Start process compile-additional-sources...
+[Wed Dec 18 20:35:14 EET 2024][FINE] Result for compile-additional-sources: 0
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/LoanCalc.class to /tmp/classes3532225725126584545/com/loancalc/LoanCalc.class
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/BasicView.class to /tmp/classes3532225725126584545/com/loancalc/BasicView.class
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/icon.png to /tmp/classes3532225725126584545/icon.png
+[Wed Dec 18 20:35:14 EET 2024][FINE] PB Command for jar: /usr/lib/jvm/java-21-graalvm/bin/jar cf /tmp/classes3532225725126584545/classes.jar -C /tmp/classes3532225725126584545 .
+[Wed Dec 18 20:35:14 EET 2024][FINE] Start process jar...
+[Wed Dec 18 20:35:14 EET 2024][FINE] Result for jar: 0
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning for init build time files
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /tmp/classes3532225725126584545/classes.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning for reflection files
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /tmp/classes3532225725126584545/classes.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning for JNI files
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-linux.json
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /tmp/classes3532225725126584545/classes.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning for resource files
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /tmp/classes3532225725126584545/classes.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/LoanCalc.class to /tmp/classes9972139112581164542/com/loancalc/LoanCalc.class
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/BasicView.class to /tmp/classes9972139112581164542/com/loancalc/BasicView.class
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/icon.png to /tmp/classes9972139112581164542/icon.png
+[Wed Dec 18 20:35:14 EET 2024][FINE] PB Command for jar: /usr/lib/jvm/java-21-graalvm/bin/jar cf /tmp/classes9972139112581164542/classes.jar -C /tmp/classes9972139112581164542 .
+[Wed Dec 18 20:35:14 EET 2024][FINE] Start process jar...
+[Wed Dec 18 20:35:14 EET 2024][FINE] Result for jar: 0
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning for resource bundles
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Wed Dec 18 20:35:14 EET 2024][FINE] Scanning /tmp/classes9972139112581164542/classes.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/display-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/storage-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/util-4.0.21.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.base.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.controls.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Class-Path manifest entry for pathing jar: ../../../../classes deps/charm-glisten-6.2.3.jar deps/display-4.0.21-desktop.jar deps/display-4.0.21.jar deps/lifecycle-4.0.21-desktop.jar deps/lifecycle-4.0.21.jar deps/statusbar-4.0.21.jar deps/storage-4.0.21-desktop.jar deps/storage-4.0.21.jar deps/util-4.0.21.jar deps/javafx.base.jar deps/javafx.controls.jar deps/javafx.graphics.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] Pathing jar created at /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar
+[Wed Dec 18 20:35:14 EET 2024][FINE] PB Command for compile: /usr/lib/jvm/java-21-graalvm/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED -H:+ExitAfterRelocatableImageWrite --features=com.gluonhq.substrate.feature.GluonFeature -H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json -H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json -H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AMD64 -cp /home/bluebirdsan/.m2/repository/com/gluonhq/substrate/0.0.64/substrate-0.0.64.jar:/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar com.loancalc.LoanCalc
+[Wed Dec 18 20:35:14 EET 2024][FINE] Start process compile...
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:14 EET 2024][INFO] [SUB] Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+[Wed Dec 18 20:35:18 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:35:18 EET 2024][INFO] [SUB] GraalVM Native Image: Generating 'com.loancalc.loancalc' (shared library)...
+[Wed Dec 18 20:35:18 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:35:18 EET 2024][INFO] [SUB] For detailed information and explanations on the build output, visit:
+[Wed Dec 18 20:35:18 EET 2024][INFO] [SUB] https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+[Wed Dec 18 20:35:18 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:35:19 EET 2024][INFO] [SUB] [GluonFeature] enabled for config com.oracle.svm.hosted.FeatureImpl$IsInConfigurationAccessImpl@4b8d604b
+[Wed Dec 18 20:35:21 EET 2024][INFO] [SUB] GluonFeature enabled in setup com.oracle.svm.hosted.FeatureImpl$DuringSetupAccessImpl@2755d705
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB] [1/8] Initializing...                                                                                    (6.1s @ 0.10GB)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  Java version: 21.0.2+13, vendor version: GraalVM CE 21.0.2+13.1
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  Graal compiler: optimization level: 2, target machine: x86-64-v3
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  C compiler: gcc (pc, x86_64, 14.2.1)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  Garbage collector: Serial GC (max heap size: 80% of RAM)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  2 user-specific feature(s):
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - com.gluonhq.substrate.feature.GluonFeature
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - com.oracle.svm.thirdparty.gson.GsonFeature
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  10 experimental option(s) unlocked:
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line, command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:ReflectionConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:ResourceConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:JNIConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:IncludeResourceBundles' (origin(s): command line, command line, command line, command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - '-H:TempDirectory' (origin(s): command line)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB] Build resources:
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - 5.37GB of memory (75.6% of 7.10GB system memory, determined at start)
+[Wed Dec 18 20:35:22 EET 2024][INFO] [SUB]  - 8 thread(s) (100.0% of 8 available processor(s), determined at start)
+[Wed Dec 18 20:35:47 EET 2024][INFO] ==================== COMPILE TASK ====================
+[Wed Dec 18 20:35:49 EET 2024][INFO] We will now compile your code for x86_64-linux-linux. This may take some time.
+[Wed Dec 18 20:35:49 EET 2024][FINE] Extracting native libs to: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/lib
+[Wed Dec 18 20:35:49 EET 2024][FINE] Looking for resource: /native/linux/launcher.c
+[Wed Dec 18 20:35:49 EET 2024][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -I/usr/lib/jvm/java-21-graalvm/include -I/usr/lib/jvm/java-21-graalvm/include/linux -I/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject launcher.c
+[Wed Dec 18 20:35:49 EET 2024][FINE] Start process compile-additional-sources...
+[Wed Dec 18 20:35:49 EET 2024][FINE] Result for compile-additional-sources: 0
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/LoanCalc.class to /tmp/classes13222169439761285511/com/loancalc/LoanCalc.class
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/BasicView.class to /tmp/classes13222169439761285511/com/loancalc/BasicView.class
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/icon.png to /tmp/classes13222169439761285511/icon.png
+[Wed Dec 18 20:35:49 EET 2024][FINE] PB Command for jar: /usr/lib/jvm/java-21-graalvm/bin/jar cf /tmp/classes13222169439761285511/classes.jar -C /tmp/classes13222169439761285511 .
+[Wed Dec 18 20:35:49 EET 2024][FINE] Start process jar...
+[Wed Dec 18 20:35:49 EET 2024][FINE] Result for jar: 0
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning for init build time files
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /tmp/classes13222169439761285511/classes.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning for reflection files
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /tmp/classes13222169439761285511/classes.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning for JNI files
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-linux.json
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /tmp/classes13222169439761285511/classes.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning for resource files
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /tmp/classes13222169439761285511/classes.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/LoanCalc.class to /tmp/classes6845806544908343155/com/loancalc/LoanCalc.class
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/BasicView.class to /tmp/classes6845806544908343155/com/loancalc/BasicView.class
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/icon.png to /tmp/classes6845806544908343155/icon.png
+[Wed Dec 18 20:35:49 EET 2024][FINE] PB Command for jar: /usr/lib/jvm/java-21-graalvm/bin/jar cf /tmp/classes6845806544908343155/classes.jar -C /tmp/classes6845806544908343155 .
+[Wed Dec 18 20:35:49 EET 2024][FINE] Start process jar...
+[Wed Dec 18 20:35:49 EET 2024][FINE] Result for jar: 0
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning for resource bundles
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Wed Dec 18 20:35:49 EET 2024][FINE] Scanning /tmp/classes6845806544908343155/classes.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/display-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/display-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/lifecycle-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/statusbar-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/storage-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/util-4.0.21.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.base.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.controls.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Class-Path manifest entry for pathing jar: ../../../../classes deps/charm-glisten-6.2.3.jar deps/display-4.0.21-desktop.jar deps/display-4.0.21.jar deps/lifecycle-4.0.21-desktop.jar deps/lifecycle-4.0.21.jar deps/statusbar-4.0.21.jar deps/storage-4.0.21-desktop.jar deps/storage-4.0.21.jar deps/util-4.0.21.jar deps/javafx.base.jar deps/javafx.controls.jar deps/javafx.graphics.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] Pathing jar created at /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar
+[Wed Dec 18 20:35:49 EET 2024][FINE] PB Command for compile: /usr/lib/jvm/java-21-graalvm/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED -H:+ExitAfterRelocatableImageWrite --features=com.gluonhq.substrate.feature.GluonFeature -H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json -H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json -H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AMD64 -cp /home/bluebirdsan/.m2/repository/com/gluonhq/substrate/0.0.64/substrate-0.0.64.jar:/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar com.loancalc.LoanCalc
+[Wed Dec 18 20:35:49 EET 2024][FINE] Start process compile...
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:35:49 EET 2024][INFO] [SUB] Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+[Wed Dec 18 20:35:52 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:35:52 EET 2024][INFO] [SUB] GraalVM Native Image: Generating 'com.loancalc.loancalc' (shared library)...
+[Wed Dec 18 20:35:52 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:35:52 EET 2024][INFO] [SUB] For detailed information and explanations on the build output, visit:
+[Wed Dec 18 20:35:52 EET 2024][INFO] [SUB] https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+[Wed Dec 18 20:35:52 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:35:53 EET 2024][INFO] [SUB] [GluonFeature] enabled for config com.oracle.svm.hosted.FeatureImpl$IsInConfigurationAccessImpl@57bc27f5
+[Wed Dec 18 20:35:55 EET 2024][INFO] [SUB] GluonFeature enabled in setup com.oracle.svm.hosted.FeatureImpl$DuringSetupAccessImpl@551a20d6
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB] [1/8] Initializing...                                                                                    (5.1s @ 0.11GB)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  Java version: 21.0.2+13, vendor version: GraalVM CE 21.0.2+13.1
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  Graal compiler: optimization level: 2, target machine: x86-64-v3
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  C compiler: gcc (pc, x86_64, 14.2.1)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  Garbage collector: Serial GC (max heap size: 80% of RAM)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  2 user-specific feature(s):
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - com.gluonhq.substrate.feature.GluonFeature
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - com.oracle.svm.thirdparty.gson.GsonFeature
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  10 experimental option(s) unlocked:
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line, command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:ReflectionConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:ResourceConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:JNIConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:IncludeResourceBundles' (origin(s): command line, command line, command line, command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - '-H:TempDirectory' (origin(s): command line)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB] Build resources:
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - 5.37GB of memory (75.6% of 7.10GB system memory, determined at start)
+[Wed Dec 18 20:35:56 EET 2024][INFO] [SUB]  - 8 thread(s) (100.0% of 8 available processor(s), determined at start)
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB] [2/8] Performing analysis...  [*****]                                                                   (49.0s @ 1.29GB)
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB]    12,548 reachable types   (88.6% of   14,155 total)
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB]    20,709 reachable fields  (62.8% of   32,964 total)
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB]    60,586 reachable methods (62.7% of   96,618 total)
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB]     3,421 types,   146 fields, and 2,800 methods registered for reflection
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB]       114 types,   134 fields, and   189 methods registered for JNI access
+[Wed Dec 18 20:36:45 EET 2024][INFO] [SUB]         4 native libraries: dl, pthread, rt, z
+[Wed Dec 18 20:36:50 EET 2024][INFO] [SUB] [3/8] Building universe...                                                                               (5.2s @ 1.49GB)
+[Wed Dec 18 20:36:55 EET 2024][INFO] [SUB] [4/8] Parsing methods...      [**]                                                                       (4.4s @ 1.12GB)
+[Wed Dec 18 20:36:58 EET 2024][INFO] [SUB] [5/8] Inlining methods...     [****]                                                                     (2.5s @ 0.90GB)
+[Wed Dec 18 20:37:39 EET 2024][INFO] [SUB] [6/8] Compiling methods...    [******]                                                                  (41.1s @ 1.58GB)
+[Wed Dec 18 20:37:45 EET 2024][INFO] [SUB] [7/8] Layouting methods...    [***]                                                                      (5.8s @ 1.17GB)
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB] 
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB]                        11.9s (10.0% of total time) in 186 GCs | Peak RSS: 3.22GB | CPU load: 6.48
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB] Produced artifacts:
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB]  /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/com.loancalc.loancalc.h (c_header)
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB]  /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/com.loancalc.loancalc_dynamic.h (c_header)
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB]  /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/graal_isolate.h (c_header)
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB]  /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/graal_isolate_dynamic.h (c_header)
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:37:50 EET 2024][INFO] [SUB] Finished generating 'com.loancalc.loancalc' in 1m 58s.
+[Wed Dec 18 20:37:50 EET 2024][FINE] Result for compile: 0
+[Wed Dec 18 20:37:50 EET 2024][FINE] Logging process [compile] to file: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/log/process-compile-1734547070765.log
+[Wed Dec 18 20:37:50 EET 2024][FINE] PB Command for check version: /usr/lib/jvm/java-21-graalvm/bin/java -version
+[Wed Dec 18 20:37:50 EET 2024][FINE] Start process check version...
+[Wed Dec 18 20:37:51 EET 2024][FINE] [SUB] openjdk version "21.0.2" 2024-01-16
+[Wed Dec 18 20:37:51 EET 2024][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 21.0.2+13.1 (build 21.0.2+13-jvmci-23.1-b30)
+[Wed Dec 18 20:37:51 EET 2024][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 21.0.2+13.1 (build 21.0.2+13-jvmci-23.1-b30, mixed mode, sharing)
+[Wed Dec 18 20:37:51 EET 2024][FINE] Result for check version: 0
+[Wed Dec 18 20:37:51 EET 2024][INFO] Substrate is tested with the Gluon's GraalVM build which you can find at https://github.com/gluonhq/graal/releases.
+While you can still use other GraalVM builds, there is no guarantee that these will work properly with Substrate
+[Wed Dec 18 20:37:51 EET 2024][FINE] Processing JavaStatic dependencies at /home/bluebirdsan/.gluon/substrate/javaStaticSdk/24-2/linux-x86_64/lib
+[Wed Dec 18 20:37:51 EET 2024][FINE] Checking java static sdk hashes
+[Wed Dec 18 20:37:51 EET 2024][FINE] Processing JavaFXStatic dependencies at /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib
+[Wed Dec 18 20:37:51 EET 2024][FINE] Checking javafx static sdk hashes
+[Wed Dec 18 20:37:51 EET 2024][FINE] Setup dependencies done
+[Wed Dec 18 20:38:27 EET 2024][INFO] ==================== LINK TASK ====================
+[Wed Dec 18 20:38:27 EET 2024][FINE] Looking for resource: /native/linux/launcher.c
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -I/usr/lib/jvm/java-21-graalvm/include -I/usr/lib/jvm/java-21-graalvm/include/linux -I/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject launcher.c
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process compile-additional-sources...
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for compile-additional-sources: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for gl: /usr/bin/pkg-config --libs gl
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for gl...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lGL
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for gl: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg gl provided flags: [-lGL]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for x11: /usr/bin/pkg-config --libs x11
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for x11...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lX11
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for x11: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg x11 provided flags: [-lX11]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for gtk+-x11-3.0: /usr/bin/pkg-config --libs gtk+-x11-3.0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for gtk+-x11-3.0...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lgtk-3 -lgdk-3 -lz -lharfbuzz -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo -lcairo-gobject -lgdk_pixbuf-2.0 -lgio-2.0 -lglib-2.0 -lgobject-2.0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for gtk+-x11-3.0: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg gtk+-x11-3.0 provided flags: [-lgtk-3, -lgdk-3, -lz, -lharfbuzz, -lpangocairo-1.0, -lpango-1.0, -latk-1.0, -lcairo, -lcairo-gobject, -lgdk_pixbuf-2.0, -lgio-2.0, -lglib-2.0, -lgobject-2.0]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for freetype2: /usr/bin/pkg-config --libs freetype2
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for freetype2...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lfreetype
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for freetype2: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg freetype2 provided flags: [-lfreetype]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for pangoft2: /usr/bin/pkg-config --libs pangoft2
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for pangoft2...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for pangoft2: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg pangoft2 provided flags: [-lpangoft2-1.0, -lpango-1.0, -lgobject-2.0, -lglib-2.0, -lharfbuzz, -lfontconfig, -lfreetype]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for gthread-2.0: /usr/bin/pkg-config --libs gthread-2.0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for gthread-2.0...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lgthread-2.0 -pthread -lglib-2.0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for gthread-2.0: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg gthread-2.0 provided flags: [-lgthread-2.0, -pthread, -lglib-2.0]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for zlib: /usr/bin/pkg-config --libs zlib
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for zlib...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lz
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for zlib: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg zlib provided flags: [-lz]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for xtst: /usr/bin/pkg-config --libs xtst
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for xtst...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lXtst
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for xtst: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg xtst provided flags: [-lXtst]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for Get config for gmodule-no-export-2.0: /usr/bin/pkg-config --libs gmodule-no-export-2.0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process Get config for gmodule-no-export-2.0...
+[Wed Dec 18 20:38:27 EET 2024][FINE] [SUB] -lgmodule-2.0 -pthread -lglib-2.0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Result for Get config for gmodule-no-export-2.0: 0
+[Wed Dec 18 20:38:27 EET 2024][FINE] Pkg gmodule-no-export-2.0 provided flags: [-lgmodule-2.0, -pthread, -lglib-2.0]
+[Wed Dec 18 20:38:27 EET 2024][FINE] All flags: [-Wl,--no-whole-archive, -lGL, -lX11, -lgtk-3, -lgdk-3, -lz, -lharfbuzz, -lpangocairo-1.0, -lpango-1.0, -latk-1.0, -lcairo, -lcairo-gobject, -lgdk_pixbuf-2.0, -lgio-2.0, -lglib-2.0, -lgobject-2.0, -lfreetype, -lpangoft2-1.0, -lpango-1.0, -lgobject-2.0, -lglib-2.0, -lharfbuzz, -lfontconfig, -lfreetype, -lgthread-2.0, -pthread, -lglib-2.0, -lstdc++, -lz, -lXtst, -lm, -lgmodule-2.0, -pthread, -lglib-2.0]
+[Wed Dec 18 20:38:27 EET 2024][FINE] PB Command for link: gcc /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/launcher.o /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/SVM-1734546954201/com.loancalc.loancalc.o -lvmone -l:libvmone.a -lz -ldl -lstdc++ -lpthread -Wl,--wrap=pow -rdynamic -lprism_es2 -lglass -lglassgtk3 -ljavafx_font -ljavafx_font_freetype -ljavafx_font_pango -ljavafx_iio -Wl,--no-whole-archive -lGL -lX11 -lgtk-3 -lgdk-3 -lz -lharfbuzz -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo -lcairo-gobject -lgdk_pixbuf-2.0 -lgio-2.0 -lglib-2.0 -lgobject-2.0 -lfreetype -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype -lgthread-2.0 -pthread -lglib-2.0 -lstdc++ -lz -lXtst -lm -lgmodule-2.0 -pthread -lglib-2.0 -lm -ldl -o /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/Gluon-SingleViewProject -L/home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib -L/home/bluebirdsan/.gluon/substrate/javaStaticSdk/24-2/linux-x86_64/lib
+[Wed Dec 18 20:38:27 EET 2024][FINE] Start process link...
+[Wed Dec 18 20:38:28 EET 2024][INFO] [SUB] /usr/bin/ld: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/SVM-1734546954201/com.loancalc.loancalc.o: warning: relocation in read-only section `.svm_heap'
+[Wed Dec 18 20:38:28 EET 2024][INFO] [SUB] /usr/bin/ld: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/SVM-1734546954201/com.loancalc.loancalc.o:(.data+0x178): undefined reference to `Java_sun_nio_fs_UnixNativeDispatcher_exists0'
+[Wed Dec 18 20:38:28 EET 2024][INFO] [SUB] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[Wed Dec 18 20:38:28 EET 2024][INFO] [SUB] collect2: error: ld returned 1 exit status
+[Wed Dec 18 20:38:28 EET 2024][FINE] Result for link: 1
+[Wed Dec 18 20:38:28 EET 2024][SEVERE] Process link failed with result: 1
+Check the log files under /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[Wed Dec 18 20:38:28 EET 2024][INFO] Logging process [link] to file: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/log/process-link-1734547108438.log
+[Wed Dec 18 20:38:28 EET 2024][SEVERE] Linking failed.
+Check the log files under /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[Wed Dec 18 20:39:01 EET 2024][INFO] ==================== LINK TASK ====================
+[Wed Dec 18 20:39:01 EET 2024][FINE] Looking for resource: /native/linux/launcher.c
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -I/usr/lib/jvm/java-21-graalvm/include -I/usr/lib/jvm/java-21-graalvm/include/linux -I/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject launcher.c
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process compile-additional-sources...
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for compile-additional-sources: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for gl: /usr/bin/pkg-config --libs gl
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for gl...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lGL
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for gl: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg gl provided flags: [-lGL]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for x11: /usr/bin/pkg-config --libs x11
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for x11...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lX11
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for x11: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg x11 provided flags: [-lX11]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for gtk+-x11-3.0: /usr/bin/pkg-config --libs gtk+-x11-3.0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for gtk+-x11-3.0...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lgtk-3 -lgdk-3 -lz -lharfbuzz -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo -lcairo-gobject -lgdk_pixbuf-2.0 -lgio-2.0 -lglib-2.0 -lgobject-2.0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for gtk+-x11-3.0: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg gtk+-x11-3.0 provided flags: [-lgtk-3, -lgdk-3, -lz, -lharfbuzz, -lpangocairo-1.0, -lpango-1.0, -latk-1.0, -lcairo, -lcairo-gobject, -lgdk_pixbuf-2.0, -lgio-2.0, -lglib-2.0, -lgobject-2.0]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for freetype2: /usr/bin/pkg-config --libs freetype2
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for freetype2...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lfreetype
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for freetype2: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg freetype2 provided flags: [-lfreetype]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for pangoft2: /usr/bin/pkg-config --libs pangoft2
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for pangoft2...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for pangoft2: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg pangoft2 provided flags: [-lpangoft2-1.0, -lpango-1.0, -lgobject-2.0, -lglib-2.0, -lharfbuzz, -lfontconfig, -lfreetype]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for gthread-2.0: /usr/bin/pkg-config --libs gthread-2.0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for gthread-2.0...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lgthread-2.0 -pthread -lglib-2.0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for gthread-2.0: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg gthread-2.0 provided flags: [-lgthread-2.0, -pthread, -lglib-2.0]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for zlib: /usr/bin/pkg-config --libs zlib
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for zlib...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lz
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for zlib: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg zlib provided flags: [-lz]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for xtst: /usr/bin/pkg-config --libs xtst
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for xtst...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lXtst
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for xtst: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg xtst provided flags: [-lXtst]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for Get config for gmodule-no-export-2.0: /usr/bin/pkg-config --libs gmodule-no-export-2.0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process Get config for gmodule-no-export-2.0...
+[Wed Dec 18 20:39:01 EET 2024][FINE] [SUB] -lgmodule-2.0 -pthread -lglib-2.0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Result for Get config for gmodule-no-export-2.0: 0
+[Wed Dec 18 20:39:01 EET 2024][FINE] Pkg gmodule-no-export-2.0 provided flags: [-lgmodule-2.0, -pthread, -lglib-2.0]
+[Wed Dec 18 20:39:01 EET 2024][FINE] All flags: [-Wl,--no-whole-archive, -lGL, -lX11, -lgtk-3, -lgdk-3, -lz, -lharfbuzz, -lpangocairo-1.0, -lpango-1.0, -latk-1.0, -lcairo, -lcairo-gobject, -lgdk_pixbuf-2.0, -lgio-2.0, -lglib-2.0, -lgobject-2.0, -lfreetype, -lpangoft2-1.0, -lpango-1.0, -lgobject-2.0, -lglib-2.0, -lharfbuzz, -lfontconfig, -lfreetype, -lgthread-2.0, -pthread, -lglib-2.0, -lstdc++, -lz, -lXtst, -lm, -lgmodule-2.0, -pthread, -lglib-2.0]
+[Wed Dec 18 20:39:01 EET 2024][FINE] PB Command for link: gcc /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject/launcher.o /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/SVM-1734546954201/com.loancalc.loancalc.o -lvmone -l:libvmone.a -lz -ldl -lstdc++ -lpthread -Wl,--wrap=pow -rdynamic -lprism_es2 -lglass -lglassgtk3 -ljavafx_font -ljavafx_font_freetype -ljavafx_font_pango -ljavafx_iio -Wl,--no-whole-archive -lGL -lX11 -lgtk-3 -lgdk-3 -lz -lharfbuzz -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo -lcairo-gobject -lgdk_pixbuf-2.0 -lgio-2.0 -lglib-2.0 -lgobject-2.0 -lfreetype -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype -lgthread-2.0 -pthread -lglib-2.0 -lstdc++ -lz -lXtst -lm -lgmodule-2.0 -pthread -lglib-2.0 -lm -ldl -o /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/Gluon-SingleViewProject -L/home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib -L/home/bluebirdsan/.gluon/substrate/javaStaticSdk/24-2/linux-x86_64/lib
+[Wed Dec 18 20:39:01 EET 2024][FINE] Start process link...
+[Wed Dec 18 20:39:01 EET 2024][INFO] [SUB] /usr/bin/ld: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/SVM-1734546954201/com.loancalc.loancalc.o: warning: relocation in read-only section `.svm_heap'
+[Wed Dec 18 20:39:02 EET 2024][INFO] [SUB] /usr/bin/ld: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/SVM-1734546954201/com.loancalc.loancalc.o:(.data+0x178): undefined reference to `Java_sun_nio_fs_UnixNativeDispatcher_exists0'
+[Wed Dec 18 20:39:02 EET 2024][INFO] [SUB] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[Wed Dec 18 20:39:02 EET 2024][INFO] [SUB] collect2: error: ld returned 1 exit status
+[Wed Dec 18 20:39:02 EET 2024][FINE] Result for link: 1
+[Wed Dec 18 20:39:02 EET 2024][SEVERE] Process link failed with result: 1
+Check the log files under /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[Wed Dec 18 20:39:02 EET 2024][INFO] Logging process [link] to file: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/log/process-link-1734547142240.log
+[Wed Dec 18 20:39:02 EET 2024][SEVERE] Linking failed.
+Check the log files under /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[Wed Dec 18 20:39:45 EET 2024][INFO] ==================== PACKAGE TASK ====================
+[Wed Dec 18 20:41:44 EET 2024][INFO] ==================== COMPILE TASK ====================
+[Wed Dec 18 20:41:45 EET 2024][INFO] We will now compile your code for x86_64-linux-linux. This may take some time.
+[Wed Dec 18 20:41:45 EET 2024][FINE] Extracting native libs to: /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/lib
+[Wed Dec 18 20:41:45 EET 2024][FINE] Looking for resource: /native/linux/launcher.c
+[Wed Dec 18 20:41:45 EET 2024][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -I/usr/lib/jvm/java-21-graalvm/include -I/usr/lib/jvm/java-21-graalvm/include/linux -I/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/Gluon-SingleViewProject launcher.c
+[Wed Dec 18 20:41:45 EET 2024][FINE] Start process compile-additional-sources...
+[Wed Dec 18 20:41:45 EET 2024][FINE] Result for compile-additional-sources: 0
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/LoanCalc.class to /tmp/classes7070591116787854353/com/loancalc/LoanCalc.class
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/BasicView.class to /tmp/classes7070591116787854353/com/loancalc/BasicView.class
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/icon.png to /tmp/classes7070591116787854353/icon.png
+[Wed Dec 18 20:41:46 EET 2024][FINE] PB Command for jar: /usr/lib/jvm/java-21-graalvm/bin/jar cf /tmp/classes7070591116787854353/classes.jar -C /tmp/classes7070591116787854353 .
+[Wed Dec 18 20:41:46 EET 2024][FINE] Start process jar...
+[Wed Dec 18 20:41:46 EET 2024][FINE] Result for jar: 0
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning for init build time files
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /tmp/classes7070591116787854353/classes.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning for reflection files
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /tmp/classes7070591116787854353/classes.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning for JNI files
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-linux.json
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /tmp/classes7070591116787854353/classes.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning for resource files
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /tmp/classes7070591116787854353/classes.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/LoanCalc.class to /tmp/classes16153360915350010590/com/loancalc/LoanCalc.class
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/com/loancalc/BasicView.class to /tmp/classes16153360915350010590/com/loancalc/BasicView.class
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/classes/icon.png to /tmp/classes16153360915350010590/icon.png
+[Wed Dec 18 20:41:46 EET 2024][FINE] PB Command for jar: /usr/lib/jvm/java-21-graalvm/bin/jar cf /tmp/classes16153360915350010590/classes.jar -C /tmp/classes16153360915350010590 .
+[Wed Dec 18 20:41:46 EET 2024][FINE] Start process jar...
+[Wed Dec 18 20:41:46 EET 2024][FINE] Result for jar: 0
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning for resource bundles
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Adding classes from /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Wed Dec 18 20:41:46 EET 2024][FINE] Scanning /tmp/classes16153360915350010590/classes.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/charm-glisten-6.2.3.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/display-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/display/4.0.21/display-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/display-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/lifecycle-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.21/lifecycle-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/lifecycle-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/statusbar/4.0.21/statusbar-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/statusbar-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21-desktop.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/storage-4.0.21-desktop.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/storage/4.0.21/storage-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/storage-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.m2/repository/com/gluonhq/attach/util/4.0.21/util-4.0.21.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/util-4.0.21.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.base.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.base.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.controls.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.controls.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Copied resource /home/bluebirdsan/.gluon/substrate/javafxStaticSdk/24-ea+7.1/linux-x86_64/sdk/lib/javafx.graphics.jar to /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/deps/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Class-Path manifest entry for pathing jar: ../../../../classes deps/charm-glisten-6.2.3.jar deps/display-4.0.21-desktop.jar deps/display-4.0.21.jar deps/lifecycle-4.0.21-desktop.jar deps/lifecycle-4.0.21.jar deps/statusbar-4.0.21.jar deps/storage-4.0.21-desktop.jar deps/storage-4.0.21.jar deps/util-4.0.21.jar deps/javafx.base.jar deps/javafx.controls.jar deps/javafx.graphics.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] Pathing jar created at /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar
+[Wed Dec 18 20:41:46 EET 2024][FINE] PB Command for compile: /usr/lib/jvm/java-21-graalvm/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED -H:+ExitAfterRelocatableImageWrite --features=com.gluonhq.substrate.feature.GluonFeature -H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json -H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json -H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AMD64 -cp /home/bluebirdsan/.m2/repository/com/gluonhq/substrate/0.0.64/substrate-0.0.64.jar:/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp/classpathJar.jar com.loancalc.LoanCalc
+[Wed Dec 18 20:41:46 EET 2024][FINE] Start process compile...
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:TempDirectory=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:JNIConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/jniconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com.apple.Cocoa' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:ReflectionConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/reflectionconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:ResourceConfigurationFiles=/home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/x86_64-linux/gvm/resourceconfig-x86_64-linux.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[Wed Dec 18 20:41:46 EET 2024][INFO] [SUB] Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+[Wed Dec 18 20:41:49 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:41:49 EET 2024][INFO] [SUB] GraalVM Native Image: Generating 'com.loancalc.loancalc' (shared library)...
+[Wed Dec 18 20:41:49 EET 2024][INFO] [SUB] ========================================================================================================================
+[Wed Dec 18 20:41:49 EET 2024][INFO] [SUB] For detailed information and explanations on the build output, visit:
+[Wed Dec 18 20:41:49 EET 2024][INFO] [SUB] https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+[Wed Dec 18 20:41:49 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:41:50 EET 2024][INFO] [SUB] [GluonFeature] enabled for config com.oracle.svm.hosted.FeatureImpl$IsInConfigurationAccessImpl@790da477
+[Wed Dec 18 20:41:52 EET 2024][INFO] [SUB] GluonFeature enabled in setup com.oracle.svm.hosted.FeatureImpl$DuringSetupAccessImpl@56db847e
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB] [1/8] Initializing...                                                                                    (5.2s @ 0.08GB)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  Java version: 21.0.2+13, vendor version: GraalVM CE 21.0.2+13.1
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  Graal compiler: optimization level: 2, target machine: x86-64-v3
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  C compiler: gcc (pc, x86_64, 14.2.1)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  Garbage collector: Serial GC (max heap size: 80% of RAM)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  2 user-specific feature(s):
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - com.gluonhq.substrate.feature.GluonFeature
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - com.oracle.svm.thirdparty.gson.GsonFeature
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  10 experimental option(s) unlocked:
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line, command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:ReflectionConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:ResourceConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:JNIConfigurationFiles' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:IncludeResourceBundles' (origin(s): command line, command line, command line, command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - '-H:TempDirectory' (origin(s): command line)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB] Build resources:
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - 5.37GB of memory (75.6% of 7.10GB system memory, determined at start)
+[Wed Dec 18 20:41:53 EET 2024][INFO] [SUB]  - 8 thread(s) (100.0% of 8 available processor(s), determined at start)

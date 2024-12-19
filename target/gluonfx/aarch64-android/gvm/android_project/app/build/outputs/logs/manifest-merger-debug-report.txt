@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [Statusbar.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/2b112d2631a7095caa1d1752a6be59c3/transformed/jetified-Statusbar/AndroidManifest.xml:2:1-8:12
+MERGED from [Display.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/bb292175996d47203629f8bf78df76f6/transformed/jetified-Display/AndroidManifest.xml:2:1-8:12
+MERGED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:2:1-13:12
+MERGED from [Lifecycle.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/0df0f5f33c632ae39108e0f1f1e88a45/transformed/jetified-Lifecycle/AndroidManifest.xml:2:1-8:12
+MERGED from [Util.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/1a7f6e36a1dc3fbc17f7a2e4acace90d/transformed/jetified-Util/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/80df230827edec19443cf92f6acc4ba2/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/359c85d7609f7add00c054feb86c125c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/475b6ef21813112d6c621d921a14f2f7/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/eb609c70f8aa5f7ff18084d64bd67afd/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/fc77d57a35eb27f7cd6efb78ea0b992d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/d49211b44f350ce4e2c370053e419fbb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/517e98ab4a1ab8c69a89ac724575b426/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/81e56e6e862bcd18f9344185d9f3b717/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/1391ffd029f1796525820348416431fd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/7591d597d1bda86fb3e5aebd6b00f840/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3561c0211c13eb50e64a776facfb28cf/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3643f75fee094385346b794962d47f4d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/976ef5019f9c02c5db3f61159c4eb7f6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/468a0971c9ac0a0c99a4d08884844a61/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/12b3606d0097af4e896f2b460dd39f57/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/e57333903c82b60bcb237c7843a61d34/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/13d50ec1fcc3caa03006f8005ad820b9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/13157f995aa5d8f93df9bc38e92fa00a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/c4f1c19412e8e18172dbc9f926d511eb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/76e043a071c136df9636fd842efc78cc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/672ca285813bfe4f04d01b937ee0bb3f/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0e062b8003846caf9b60547328279414/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3979bba29e69d49b947894de3a00e2bc/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/95d754971cda992aed93e52a3ccf64dc/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:94-119
+		INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:2:70-93
+		INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:3:5-53
+	android:xlargeScreens
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:3:23-51
+uses-permission#android.permission.INTERNET
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:5-17:19
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:5-17:19
+MERGED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:11:5-64
+MERGED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:11:5-64
+MERGED from [androidx.core:core:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/468a0971c9ac0a0c99a4d08884844a61/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/468a0971c9ac0a0c99a4d08884844a61/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:requestLegacyExternalStorage
+		ADDED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:11:18-61
+	android:extractNativeLibs
+		INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:18-57
+	android:icon
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:58-92
+activity#com.gluonhq.helloandroid.MainActivity
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:7:9-14:20
+	android:exported
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:8:19-42
+	android:configChanges
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:9:19-69
+	android:name
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:7:19-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:10:14-13:30
+category#android.intent.category.LAUNCHER
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:11:17-76
+	android:name
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:11:27-74
+action#android.intent.action.MAIN
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:12:17-68
+	android:name
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:12:25-66
+activity#com.gluonhq.helloandroid.PermissionRequestActivity
+ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:15:9-16:44
+	android:exported
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:16:19-42
+	android:name
+		ADDED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:15:19-84
+uses-sdk
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+MERGED from [Statusbar.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/2b112d2631a7095caa1d1752a6be59c3/transformed/jetified-Statusbar/AndroidManifest.xml:6:5-44
+MERGED from [Statusbar.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/2b112d2631a7095caa1d1752a6be59c3/transformed/jetified-Statusbar/AndroidManifest.xml:6:5-44
+MERGED from [Display.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/bb292175996d47203629f8bf78df76f6/transformed/jetified-Display/AndroidManifest.xml:6:5-44
+MERGED from [Display.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/bb292175996d47203629f8bf78df76f6/transformed/jetified-Display/AndroidManifest.xml:6:5-44
+MERGED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:6:5-44
+MERGED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:6:5-44
+MERGED from [Lifecycle.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/0df0f5f33c632ae39108e0f1f1e88a45/transformed/jetified-Lifecycle/AndroidManifest.xml:6:5-44
+MERGED from [Lifecycle.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/0df0f5f33c632ae39108e0f1f1e88a45/transformed/jetified-Lifecycle/AndroidManifest.xml:6:5-44
+MERGED from [Util.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/1a7f6e36a1dc3fbc17f7a2e4acace90d/transformed/jetified-Util/AndroidManifest.xml:6:5-44
+MERGED from [Util.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/1a7f6e36a1dc3fbc17f7a2e4acace90d/transformed/jetified-Util/AndroidManifest.xml:6:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/80df230827edec19443cf92f6acc4ba2/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/80df230827edec19443cf92f6acc4ba2/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/359c85d7609f7add00c054feb86c125c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/359c85d7609f7add00c054feb86c125c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/475b6ef21813112d6c621d921a14f2f7/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/475b6ef21813112d6c621d921a14f2f7/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/eb609c70f8aa5f7ff18084d64bd67afd/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/eb609c70f8aa5f7ff18084d64bd67afd/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/fc77d57a35eb27f7cd6efb78ea0b992d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/fc77d57a35eb27f7cd6efb78ea0b992d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/d49211b44f350ce4e2c370053e419fbb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/d49211b44f350ce4e2c370053e419fbb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/517e98ab4a1ab8c69a89ac724575b426/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/517e98ab4a1ab8c69a89ac724575b426/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/81e56e6e862bcd18f9344185d9f3b717/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/81e56e6e862bcd18f9344185d9f3b717/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/1391ffd029f1796525820348416431fd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/1391ffd029f1796525820348416431fd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/7591d597d1bda86fb3e5aebd6b00f840/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/7591d597d1bda86fb3e5aebd6b00f840/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3561c0211c13eb50e64a776facfb28cf/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3561c0211c13eb50e64a776facfb28cf/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3643f75fee094385346b794962d47f4d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3643f75fee094385346b794962d47f4d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/976ef5019f9c02c5db3f61159c4eb7f6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/976ef5019f9c02c5db3f61159c4eb7f6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0d702d4ac45c7a7fbbc244b227f4b6f0/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/468a0971c9ac0a0c99a4d08884844a61/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/468a0971c9ac0a0c99a4d08884844a61/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/12b3606d0097af4e896f2b460dd39f57/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/12b3606d0097af4e896f2b460dd39f57/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/e57333903c82b60bcb237c7843a61d34/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/e57333903c82b60bcb237c7843a61d34/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/13d50ec1fcc3caa03006f8005ad820b9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/13d50ec1fcc3caa03006f8005ad820b9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/13157f995aa5d8f93df9bc38e92fa00a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/13157f995aa5d8f93df9bc38e92fa00a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/c4f1c19412e8e18172dbc9f926d511eb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/c4f1c19412e8e18172dbc9f926d511eb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/76e043a071c136df9636fd842efc78cc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/76e043a071c136df9636fd842efc78cc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/672ca285813bfe4f04d01b937ee0bb3f/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/672ca285813bfe4f04d01b937ee0bb3f/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0e062b8003846caf9b60547328279414/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/0e062b8003846caf9b60547328279414/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3979bba29e69d49b947894de3a00e2bc/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/3979bba29e69d49b947894de3a00e2bc/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/95d754971cda992aed93e52a3ccf64dc/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/bluebirdsan/.gradle/caches/8.9/transforms/95d754971cda992aed93e52a3ccf64dc/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bluebirdsan/Desktop/Code/Java/Gluon-SingleViewProject/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [Storage.aar] /home/bluebirdsan/.gradle/caches/8.9/transforms/7c4ebafb514eb69fcb23ac462da5a351/transformed/jetified-Storage/AndroidManifest.xml:9:22-78
